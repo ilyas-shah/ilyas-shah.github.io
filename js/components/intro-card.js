@@ -36,8 +36,8 @@ class IntroCard extends React.Component {
     return (
       <div className="card">
         <Badge word={this.state.word} />
-        <h1>I'm Jen Luker</h1>
-        <p>Developer and knitter.<br />
+        <h1>I'm Majid Nisar</h1>
+        <p>Developer, Project Manager/ Head Software Development & DevOps.  and Hobbyist Writer,Poet, Photographer.<br />
         Find me on:</p>
         <div className="iconBlock">
           <Icon
@@ -48,32 +48,32 @@ class IntroCard extends React.Component {
           />
           <Icon
             name="twitter"
-            href="https://twitter.com/knitcodemonkey"
+            href="https://twitter.com/MAJIDNISAR"
             onMouseOverEvent={this.onMouseOver.bind(this)}
             onMouseOutEvent={this.onMouseOut.bind(this)}
           />
           <Icon
             name="github"
-            href="https://github.com/knittingcodemonkey"
+            href="https://github.com/MAJIDNISAR"
             onMouseOverEvent={this.onMouseOver.bind(this)}
             onMouseOutEvent={this.onMouseOut.bind(this)}
           />
           <Icon
             name="linkedin"
-            href="https://www.linkedin.com/in/knitcodemonkey/"
+            href="https://www.linkedin.com/in/MAJIDNISAR/"
             onMouseOverEvent={this.onMouseOver.bind(this)}
             onMouseOutEvent={this.onMouseOut.bind(this)}
             /> 
           <Icon
             name="codePen"
-            href="https://codepen.io/knitcodemonkey/"
+            href="https://codepen.io/MAJIDNISAR/"
             onMouseOverEvent={this.onMouseOver.bind(this)}
             onMouseOutEvent={this.onMouseOut.bind(this)}
           />
           
           <Icon
-            name="knitting"
-            href="https://github.com/knittingcodemonkey"
+            name="hobbyist"
+            href="https://github.com/MAJIDNISAR"
             onMouseOverEvent={this.onMouseOver.bind(this)}
             onMouseOutEvent={this.onMouseOut.bind(this)}
           />
