@@ -1,0 +1,68 @@
+@import "includes/variables";
+
+.contentBlock .iconBlock {
+  width: 100%;
+  padding-bottom: 15px;
+  border-bottom: 2px dashed #ccc;
+}
+
+.contentBlock, .nocolors .contentBlock {
+  width: 90%;
+  max-width: 1024px;
+  min-width: 320px;
+  min-height: 100%;
+  flex-grow:1;
+  flex-direction: column;
+  justify-content: flex-start;
+  display: block;
+  border-radius: none;
+  background-color: rgba(245,245,245,0.7);
+  box-shadow: 10px 0px 20px rgba(0,0,0,0.4), -10px 0px 20px rgba(0,0,0,0.4);
+}
+
+.colors .contentBlock {
+  background-color: rgba(245,245,245,0.95);
+}
+
+.contentBlock p {clear: both;}
+
+.content {
+  padding: 20px;
+  overflow: auto;
+}
+
+.content h1 {
+  text-align: center;
+  clear: both;
+  font-size: 2.4em;
+  margin-bottom: 10px;
+}
+
+.content h2 {
+  padding-top: 40px;
+  paddingBottom: 10px;
+  margin-bottom: 0;
+  font-size: 2em;
+  font-family: 'Crimson Text', serif;
+}
+
+.content h2:nth-of-type(1) {
+  padding-top: 0px;
+}
+
+.content blockquote { 
+  margin: 20px 0 10px 20px;
+  padding: 0 20px; 
+  text-align: justify;
+  border-left: 3px solid $color-link;
+  display: block;
+  position: relative;
+}
+
+.content .cite {
+  font-style: italic;
+  padding: 0 0 20px 20px;
+}
+.content .cite:last-of-type {
+  padding-bottom: 0;
+}
