@@ -25,7 +25,7 @@ export default class Talks extends React.Component {
                 vintage cars, he really loves working on the Cars team. Majid has
                 spent a majority of her decade-long career as a full-stack
                 developer using DOT Net technologies, Javascript, and CSS, but has a particular
-                fondness for front-end technologies. When he's not solving problems or learning new
+                fondness for front-end technologies. When he is not solving problems or learning new
                 technologies, his spare time is spent clicking pictures he also enjoyes reading fiction (especially
                 sci-fi, mystery, and trashy period romance novels), and is
                 fascinated by space.
