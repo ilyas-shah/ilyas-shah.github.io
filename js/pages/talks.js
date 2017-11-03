@@ -15,7 +15,7 @@ export default class Talks extends React.Component {
     let that = this;
     axios
       .get(
-        "https://raw.githubusercontent.com/knittingcodemonkey/presentation-proposals/master/README.md"
+        "https://raw.githubusercontent.com/majidnisar/majidnisar.github.io/master/README.md"
       )
       .then(function(response) {
         const talks = that.state.talks;
