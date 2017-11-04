@@ -9142,7 +9142,7 @@
 	            onMouseOutEvent: this.onMouseOut.bind(this)
 	          }),
 	          _react2.default.createElement(_icon2.default, {
-	            name: "knitting",
+	            name: "Github",
 	            href: "https://github.com/ilyas-shah",
 	            onMouseOverEvent: this.onMouseOver.bind(this),
 	            onMouseOutEvent: this.onMouseOut.bind(this)
@@ -11409,7 +11409,7 @@
 	        }),
 	        _react2.default.createElement(_icon2.default, {
 	          name: "twitter",
-	          href: "https://twitter.com/knitcodemonkey",
+	          href: "https://twitter.com/ilu_shah",
 	          onMouseOverEvent: function onMouseOverEvent() {
 	            return;
 	          },
@@ -11419,7 +11419,7 @@
 	        }),
 	        _react2.default.createElement(_icon2.default, {
 	          name: "github",
-	          href: "https://github.com/knittingcodemonkey",
+	          href: "https://github.com/ilyas-shah",
 	          onMouseOverEvent: function onMouseOverEvent() {
 	            return;
 	          },
@@ -11429,7 +11429,7 @@
 	        }),
 	        _react2.default.createElement(_icon2.default, {
 	          name: "linkedin",
-	          href: "https://www.linkedin.com/in/knitcodemonkey/",
+	          href: "https://www.linkedin.com/in/ilyas-shah-1a252b8b",
 	          onMouseOverEvent: function onMouseOverEvent() {
 	            return;
 	          },
@@ -11439,7 +11439,7 @@
 	        }),
 	        _react2.default.createElement(_icon2.default, {
 	          name: "codePen",
-	          href: "https://codepen.io/knitcodemonkey",
+	          href: "https://codepen.io/iluShah",
 	          onMouseOverEvent: function onMouseOverEvent() {
 	            return;
 	          },
@@ -11449,7 +11449,7 @@
 	        }),
 	        _react2.default.createElement(_icon2.default, {
 	          name: "knitting",
-	          href: "https://github.com/knittingcodemonkey",
+	          href: "https://github.com/ilyas-shah",
 	          onMouseOverEvent: function onMouseOverEvent() {
 	            return;
 	          },
