@@ -9099,12 +9099,12 @@
 	        _react2.default.createElement(
 	          "h1",
 	          null,
-	          "I'm Jen Luker"
+	          "I'm Ilyas Shah"
 	        ),
 	        _react2.default.createElement(
 	          "p",
 	          null,
-	          "Developer and knitter.",
+	          "NodeJS Backend Developer.",
 	          _react2.default.createElement("br", null),
 	          "Find me on:"
 	        ),
@@ -9119,31 +9119,31 @@
 	          }),
 	          _react2.default.createElement(_icon2.default, {
 	            name: "twitter",
-	            href: "https://twitter.com/knitcodemonkey",
+	            href: "https://twitter.com/ilu_shah",
 	            onMouseOverEvent: this.onMouseOver.bind(this),
 	            onMouseOutEvent: this.onMouseOut.bind(this)
 	          }),
 	          _react2.default.createElement(_icon2.default, {
 	            name: "github",
-	            href: "https://github.com/knittingcodemonkey",
+	            href: "https://github.com/ilyas-shah",
 	            onMouseOverEvent: this.onMouseOver.bind(this),
 	            onMouseOutEvent: this.onMouseOut.bind(this)
 	          }),
 	          _react2.default.createElement(_icon2.default, {
 	            name: "linkedin",
-	            href: "https://www.linkedin.com/in/knitcodemonkey/",
+	            href: "https://www.linkedin.com/in/ilyas-shah-1a252b8b/",
 	            onMouseOverEvent: this.onMouseOver.bind(this),
 	            onMouseOutEvent: this.onMouseOut.bind(this)
 	          }),
 	          _react2.default.createElement(_icon2.default, {
 	            name: "codePen",
-	            href: "https://codepen.io/knitcodemonkey/",
+	            href: "https://codepen.io/iluShah/",
 	            onMouseOverEvent: this.onMouseOver.bind(this),
 	            onMouseOutEvent: this.onMouseOut.bind(this)
 	          }),
 	          _react2.default.createElement(_icon2.default, {
 	            name: "knitting",
-	            href: "https://github.com/knittingcodemonkey",
+	            href: "https://github.com/ilyas-shah",
 	            onMouseOverEvent: this.onMouseOver.bind(this),
 	            onMouseOutEvent: this.onMouseOut.bind(this)
 	          })
@@ -11530,17 +11530,17 @@
 	                  _react2.default.createElement(
 	                    "h1",
 	                    null,
-	                    "Jen Luker"
+	                    "Ilyas Shah"
 	                  ),
 	                  _react2.default.createElement(
 	                    "div",
 	                    null,
-	                    "Lead Software Engineer"
+	                    "Software Engineer I"
 	                  ),
 	                  _react2.default.createElement(
 	                    "div",
 	                    null,
-	                    "Deseret Digital Media"
+	                    "E-Resolute Inc"
 	                  )
 	                )
 	              ),
@@ -11552,7 +11552,7 @@
 	              _react2.default.createElement(
 	                "blockquote",
 	                null,
-	                "Jen Luker is a Lead software engineer at DDM working on the KSL.com Classifieds; a Northern Utah classifieds site that beats the national brand on listings and traffic. While she enjoys vintage cars, she really loves working on the Cars team. Jen has spent a majority of her decade-long career as a full-stack developer using PHP, Javascript, and CSS, but has a particular fondness for front-end technologies. She is a leader on front-end teams, trains others in Reactjs, and build apps in React Native. When she's not solving problems or learning new technologies, her spare time is spent spinning yarn from raw wool and knitting; she's even been known to 3D print her own tools for the job. She also enjoyes reading fiction (especially sci-fi, mystery, and trashy period romance novels), and is fascinated by space. She recently spoke at UtahJS2017, kicking off her public speaking career."
+	                "Ilyas Shah is a software engineer I at E-Resolute Inc."
 	              ),
 	              _react2.default.createElement(
 	                "h2",
