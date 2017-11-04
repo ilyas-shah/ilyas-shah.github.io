@@ -4,7 +4,7 @@ const ReactCSSTransitionGroup = React.addons.CSSTransitionGroup;
 
 class Badge extends React.Component {
   render() {
-    var word = this.props.word;
+    // var word = this.props.word;
     var wordElement = <div className="gearText" key={word}>{word}</div>;
     return (
       <div className="badge">
