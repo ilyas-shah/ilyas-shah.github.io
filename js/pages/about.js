@@ -12,7 +12,7 @@ export default class Talks extends React.Component {
               <div className="aboutme">
                 <img className="selfie" src="http://majidnisar.com/img/avatar.jpg" />
                 <div className="job">
-                  <h1>Jen Luker</h1>
+                  <h1>Ilyas Shah</h1>
                   <div>Lead Software Engineer</div>
                   <div>Deseret Digital Media</div>
                 </div>
