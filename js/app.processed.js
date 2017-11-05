@@ -9099,7 +9099,7 @@
 	        _react2.default.createElement(
 	          "h1",
 	          null,
-	          "I'm Jen Luker"
+	          "I'm Ilyas Shah"
 	        ),
 	        _react2.default.createElement(
 	          "p",
@@ -9119,7 +9119,7 @@
 	          }),
 	          _react2.default.createElement(_icon2.default, {
 	            name: "twitter",
-	            href: "https://twitter.com/knitcodemonkey",
+	            href: "https://twitter.com/ilu_shah",
 	            onMouseOverEvent: this.onMouseOver.bind(this),
 	            onMouseOutEvent: this.onMouseOut.bind(this)
 	          }),
@@ -9493,64 +9493,64 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Talks = function (_React$Component) {
-	  _inherits(Talks, _React$Component);
+	// var Talks = function (_React$Component) {
+	//   _inherits(Talks, _React$Component);
 
-	  function Talks(props) {
-	    _classCallCheck(this, Talks);
+	//   function Talks(props) {
+	//     _classCallCheck(this, Talks);
 
-	    var _this = _possibleConstructorReturn(this, (Talks.__proto__ || Object.getPrototypeOf(Talks)).call(this, props));
+	//     var _this = _possibleConstructorReturn(this, (Talks.__proto__ || Object.getPrototypeOf(Talks)).call(this, props));
 
-	    _this.state = {
-	      talks: []
-	    };
-	    return _this;
-	  }
+	//     _this.state = {
+	//       talks: []
+	//     };
+	//     return _this;
+	//   }
 
-	  _createClass(Talks, [{
-	    key: "componentWillMount",
-	    value: function componentWillMount() {
-	      var that = this;
-	      _axios2.default.get("https://raw.githubusercontent.com/knittingcodemonkey/presentation-proposals/master/README.md").then(function (response) {
-	        var talks = that.state.talks;
-	        talks.push(response.data);
-	        that.setState({ talks: talks });
-	      }).catch(function (error) {
-	        console.log(error);
-	      });
-	    }
-	  }, {
-	    key: "render",
-	    value: function render() {
-	      var converter = new _showdown2.default.Converter();
-	      converter.setFlavor("github");
-	      return _react2.default.createElement(
-	        "div",
-	        { className: "beautiful" },
-	        _react2.default.createElement(
-	          "div",
-	          { className: "contentBlock" },
-	          _react2.default.createElement(_iconBlock2.default, null),
-	          _react2.default.createElement(
-	            "div",
-	            { className: "content talks" },
-	            this.state.talks.map(function (talk, idx) {
-	              return _react2.default.createElement("div", {
-	                key: "talk" + idx,
-	                className: "talk",
-	                dangerouslySetInnerHTML: { __html: converter.makeHtml(talk) }
-	              });
-	            })
-	          )
-	        )
-	      );
-	    }
-	  }]);
+	//   _createClass(Talks, [{
+	//     key: "componentWillMount",
+	//     value: function componentWillMount() {
+	//       var that = this;
+	//       _axios2.default.get("https://raw.githubusercontent.com/knittingcodemonkey/presentation-proposals/master/README.md").then(function (response) {
+	//         var talks = that.state.talks;
+	//         talks.push(response.data);
+	//         that.setState({ talks: talks });
+	//       }).catch(function (error) {
+	//         console.log(error);
+	//       });
+	//     }
+	//   }, {
+	//     key: "render",
+	//     value: function render() {
+	//       var converter = new _showdown2.default.Converter();
+	//       converter.setFlavor("github");
+	//       return _react2.default.createElement(
+	//         "div",
+	//         { className: "beautiful" },
+	//         _react2.default.createElement(
+	//           "div",
+	//           { className: "contentBlock" },
+	//           _react2.default.createElement(_iconBlock2.default, null),
+	//           _react2.default.createElement(
+	//             "div",
+	//             { className: "content talks" },
+	//             this.state.talks.map(function (talk, idx) {
+	//               return _react2.default.createElement("div", {
+	//                 key: "talk" + idx,
+	//                 className: "talk",
+	//                 dangerouslySetInnerHTML: { __html: converter.makeHtml(talk) }
+	//               });
+	//             })
+	//           )
+	//         )
+	//       );
+	//     }
+	//   }]);
 
-	  return Talks;
-	}(_react2.default.Component);
+	//   return Talks;
+	// }(_react2.default.Component);
 
-	exports.default = Talks;
+	// exports.default = Talks;
 		;
 
 /***/ }),
@@ -11409,7 +11409,7 @@
 	        }),
 	        _react2.default.createElement(_icon2.default, {
 	          name: "twitter",
-	          href: "https://twitter.com/knitcodemonkey",
+	          href: "https://twitter.com/ilu_shah",
 	          onMouseOverEvent: function onMouseOverEvent() {
 	            return;
 	          },
@@ -11419,7 +11419,7 @@
 	        }),
 	        _react2.default.createElement(_icon2.default, {
 	          name: "github",
-	          href: "https://github.com/knittingcodemonkey",
+	          href: "https://github.com/ilyas-shah",
 	          onMouseOverEvent: function onMouseOverEvent() {
 	            return;
 	          },
@@ -11429,7 +11429,7 @@
 	        }),
 	        _react2.default.createElement(_icon2.default, {
 	          name: "linkedin",
-	          href: "https://www.linkedin.com/in/knitcodemonkey/",
+	          href: "https://www.linkedin.com/in/ilyas-shah-1a252b8b/",
 	          onMouseOverEvent: function onMouseOverEvent() {
 	            return;
 	          },
@@ -11439,7 +11439,7 @@
 	        }),
 	        _react2.default.createElement(_icon2.default, {
 	          name: "codePen",
-	          href: "https://codepen.io/knitcodemonkey",
+	          href: "https://codepen.io/iluShah",
 	          onMouseOverEvent: function onMouseOverEvent() {
 	            return;
 	          },
@@ -11448,8 +11448,8 @@
 	          }
 	        }),
 	        _react2.default.createElement(_icon2.default, {
-	          name: "knitting",
-	          href: "https://github.com/knittingcodemonkey",
+	          name: "facebook",
+	          href: "https://facebook.com/ilyas.shah.792",
 	          onMouseOverEvent: function onMouseOverEvent() {
 	            return;
 	          },
@@ -11530,17 +11530,17 @@
 	                  _react2.default.createElement(
 	                    "h1",
 	                    null,
-	                    "Jen Luker"
+	                    "Ilyas Shah"
 	                  ),
 	                  _react2.default.createElement(
 	                    "div",
 	                    null,
-	                    "Lead Software Engineer"
+	                    "Software Engineer - I"
 	                  ),
 	                  _react2.default.createElement(
 	                    "div",
 	                    null,
-	                    "Deseret Digital Media"
+	                    "E-Resolue Inc"
 	                  )
 	                )
 	              ),
@@ -11552,7 +11552,7 @@
 	              _react2.default.createElement(
 	                "blockquote",
 	                null,
-	                "Jen Luker is a Lead software engineer at DDM working on the KSL.com Classifieds; a Northern Utah classifieds site that beats the national brand on listings and traffic. While she enjoys vintage cars, she really loves working on the Cars team. Jen has spent a majority of her decade-long career as a full-stack developer using PHP, Javascript, and CSS, but has a particular fondness for front-end technologies. She is a leader on front-end teams, trains others in Reactjs, and build apps in React Native. When she's not solving problems or learning new technologies, her spare time is spent spinning yarn from raw wool and knitting; she's even been known to 3D print her own tools for the job. She also enjoyes reading fiction (especially sci-fi, mystery, and trashy period romance novels), and is fascinated by space. She recently spoke at UtahJS2017, kicking off her public speaking career."
+	                "Ilyas Shah is a software engineer at E-Resolute."
 	              ),
 	              _react2.default.createElement(
 	                "h2",
@@ -11562,7 +11562,7 @@
 	              _react2.default.createElement(
 	                "blockquote",
 	                null,
-	                "I have four kids, two cats and a wonderful husband, all of whom understand my need to speak in programming jargon while knitting something to calm my overclocked mind."
+	                ""
 	              ),
 	              _react2.default.createElement(
 	                "h2",
@@ -11572,43 +11572,43 @@
 	              _react2.default.createElement(
 	                "blockquote",
 	                null,
-	                "I'd probably describe Jen as a smart, yet, insightful person. She is thoughtful on her approach to software problems while still considering the people working on them and people using them. Outside of work she's been a great person to get to know and I've enjoyed our chats."
+	                ""
 	              ),
 	              _react2.default.createElement(
 	                "div",
 	                { className: "cite" },
 	                _react2.default.createElement(
 	                  "a",
-	                  { href: "https://twitter.com/geekygirlsarah" },
-	                  "Sarah Withee"
+	                  { href: "https://twitter.com/majidnisar" },
+	                  "Majid Nisar"
 	                )
 	              ),
 	              _react2.default.createElement(
 	                "blockquote",
 	                null,
-	                "When she gave her very first talk she came across as someone who'd done it a hundred times before & it was awesome to see."
+	                ""
 	              ),
 	              _react2.default.createElement(
 	                "div",
 	                { className: "cite" },
 	                _react2.default.createElement(
 	                  "a",
-	                  { href: "https://twitter.com/SurlyMae" },
-	                  "Ashly LaMarr"
+	                  { href: "https://twitter.com/majidnisar" },
+	                  "Majid Nisar"
 	                )
 	              ),
 	              _react2.default.createElement(
 	                "blockquote",
 	                null,
-	                "Jen Luker: Upending the patriarchy one used Kia at a time."
+	                "Ilyas Shah: Upending the patriarchy one used Kia at a time."
 	              ),
 	              _react2.default.createElement(
 	                "div",
 	                { className: "cite" },
 	                _react2.default.createElement(
 	                  "a",
-	                  { href: "https://twitter.com/holtbt" },
-	                  "Brian Holt"
+	                  { href: "https://twitter.com/majidnisar" },
+	                  "Majid Nisar"
 	                )
 	              )
 	            )
