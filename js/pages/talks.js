@@ -15,7 +15,11 @@ export default class Talks extends React.Component {
     let that = this;
     axios
       .get(
+<<<<<<< HEAD
         ""
+=======
+        "https://raw.githubusercontent.com/ilyas-shah/ilyas-shah.github.io/master/README.md"
+>>>>>>> 93077e4ac9a7137968cf396f5b2a3cdf7c113cef
       )
       .then(function(response) {
         const talks = that.state.talks;

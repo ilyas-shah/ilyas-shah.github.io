@@ -9104,7 +9104,7 @@
 	        _react2.default.createElement(
 	          "p",
 	          null,
-	          "Developer and knitter.",
+	          "NodeJS Backend Developer.",
 	          _react2.default.createElement("br", null),
 	          "Find me on:"
 	        ),
@@ -9125,25 +9125,25 @@
 	          }),
 	          _react2.default.createElement(_icon2.default, {
 	            name: "github",
-	            href: "https://github.com/knittingcodemonkey",
+	            href: "https://github.com/ilyas-shah",
 	            onMouseOverEvent: this.onMouseOver.bind(this),
 	            onMouseOutEvent: this.onMouseOut.bind(this)
 	          }),
 	          _react2.default.createElement(_icon2.default, {
 	            name: "linkedin",
-	            href: "https://www.linkedin.com/in/knitcodemonkey/",
+	            href: "https://www.linkedin.com/in/ilyas-shah-1a252b8b/",
 	            onMouseOverEvent: this.onMouseOver.bind(this),
 	            onMouseOutEvent: this.onMouseOut.bind(this)
 	          }),
 	          _react2.default.createElement(_icon2.default, {
 	            name: "codePen",
-	            href: "https://codepen.io/knitcodemonkey/",
+	            href: "https://codepen.io/iluShah/",
 	            onMouseOverEvent: this.onMouseOver.bind(this),
 	            onMouseOutEvent: this.onMouseOut.bind(this)
 	          }),
 	          _react2.default.createElement(_icon2.default, {
-	            name: "knitting",
-	            href: "https://github.com/knittingcodemonkey",
+	            name: "Github",
+	            href: "https://github.com/ilyas-shah",
 	            onMouseOverEvent: this.onMouseOver.bind(this),
 	            onMouseOutEvent: this.onMouseOut.bind(this)
 	          })
@@ -11429,7 +11429,7 @@
 	        }),
 	        _react2.default.createElement(_icon2.default, {
 	          name: "linkedin",
-	          href: "https://www.linkedin.com/in/ilyas-shah-1a252b8b/",
+	          href: "https://www.linkedin.com/in/ilyas-shah-1a252b8b",
 	          onMouseOverEvent: function onMouseOverEvent() {
 	            return;
 	          },
@@ -11535,12 +11535,12 @@
 	                  _react2.default.createElement(
 	                    "div",
 	                    null,
-	                    "Software Engineer - I"
+	                    "Software Engineer I"
 	                  ),
 	                  _react2.default.createElement(
 	                    "div",
 	                    null,
-	                    "E-Resolue Inc"
+	                    "E-Resolute Inc"
 	                  )
 	                )
 	              ),
@@ -11552,7 +11552,7 @@
 	              _react2.default.createElement(
 	                "blockquote",
 	                null,
-	                "Ilyas Shah is a software engineer at E-Resolute."
+	                "Ilyas Shah is a software engineer I at E-Resolute Inc."
 	              ),
 	              _react2.default.createElement(
 	                "h2",
